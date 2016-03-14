@@ -88,11 +88,11 @@ nav a:hover.sub	{
  article{
 		margin: 40px 20px 0 150px;
 		padding:20px;	
-          border-left:1px solid pink;
-		  border-right:1px solid pink;
-		  color:#000;
-		  font-size:1.2em;
-		  width:80%;
+        border-left:1px solid pink;
+		border-right:1px solid pink;
+		color:#000;
+		font-size:1.2em;
+		width:95%;
           
         }
          

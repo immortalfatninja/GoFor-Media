@@ -27,18 +27,27 @@
   box-sizing: border-box; }
 
 /* For devices larger than 400px */
-/*@media (min-width: 400px) */
-@media screen and (max-width:549px) {
+@media (min-width: 400px)and (max-width:549px)
+ {
   .container {
     width: 85%;
-    padding: 0; }
+    }
 	
+	article {
+	padding:0;
+	margin:0;
+	border: none;
+	}
+
+	#date, .title {
+		display:none;
+		}
 }
+
+
 
 /* For devices larger than 550px */
 @media (min-width: 550px) {
-	
-
 
   .container {
     width: 80%; }
