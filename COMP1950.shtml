@@ -59,7 +59,6 @@
                         <!-- -->
                     </ul>
                 </nav>
-
                 <!--/Navigation -->
             </div>
 
@@ -83,8 +82,7 @@
                     <h2 id="orientation">Orientation</h2>
 
                     <p>Learn about the course to help you determine if this is the right class for you. Take a look at the
-                        <a
-                        href="/outline">course outline</a>
+                        <a href="/outline">course outline</a>
                     </p>
 
                     <h3 id="outline">Outline</h3>
@@ -133,7 +131,8 @@
 
                     <ul>
                         <li><a href="https://filezilla-project.org">Filezilla</a> - FTP tool (Win) * installed in BCIT lab computers
-                            *</li>
+                            *
+                        </li>
                         <li><a href="https://cyberduck.io/?l=en">Cyberduck FTP</a> - FTP tool (Mac)</li>
                     </ul>
 
@@ -248,7 +247,8 @@
 
                     <ul>
                         <li>Firefox was the first browser to have real tools embedded and, with extensions, it’s a real powerhouse
-                            now</li>
+                            now
+                        </li>
                         <li>The last few years have seen a constant progression of improved tools in other browsers, bringing
                             everything up a significant notch</li>
                         <li>Not a bad idea to have a “dev browser” that can be weighted down with tools</li>
@@ -257,7 +257,8 @@
                     <h2 id="standards">Standards</h2>
 
                     <p>Let’s take a look at what Stadards are, what the point is and why they can benefit us or cause sadness
-                        later.</p>
+                        later.
+                    </p>
 
                     <h3 id="definition">Definition</h3>
 
@@ -364,7 +365,8 @@
                     <p><em>Your pages will be viewable in the largest number of browsers, the largest number of devices and (if used correctly) will gracefully degrade as support for CSS or other presentation layers are absent.</em></p>
 
                     <p>Some more words from the <a href="http://www.webstandards.org/learn/faq/">Web Standards Project</a> worth
-                        reading</p>
+                        reading
+                    </p>
 
                     <h2 id="details-of-standards-driven-development">Details of Standards-Driven Development</h2>
 
@@ -375,7 +377,8 @@
 
                     <ul>
                         <li>Structurally valid HTML code (eg: tags that open are closed. parent-child tag relationships are valid,
-                            etc)</li>
+                            etc)
+                        </li>
                         <li>Logically valid HTML code (eg: ids are not applied more than once per page)</li>
                         <li>Use CSS to develop sites that separate content (HTML) from presentation (CSS)</li>
                         <li>Getting rid of deprecated tags, complex table layouts, browser sniffing, code forking</li>
@@ -435,7 +438,8 @@
                                         <tbody>
                                             <tr>
                                                 <td>special characters such as ! @ # $ % ^ &amp; * ( ) + { } [ ] : ; “ &lt; &gt;
-                                                    ?</td>
+                                                    ?
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -517,7 +521,8 @@
                         descends from the title of the page.</p>
 
                     <p>Each group of content is a discrete piece of information bounded by headings, which relate to following
-                        paragraphs.</p>
+                        paragraphs.
+                    </p>
 
                     <h3 id="logical-vs-physical-styles">Logical vs. Physical Styles</h3>
 
@@ -652,7 +657,6 @@
     	}
     });
 });
-
         </script>
     </div>
     <!-------/Container-------->
