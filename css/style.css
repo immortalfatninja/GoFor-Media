@@ -96,3 +96,6 @@ nav a:hover.sub	{
           
         }
          
+h2:hover {
+    cursor: pointer;
+}
