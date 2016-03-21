@@ -8,7 +8,28 @@
 
     <script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>
     <script>
+        
+        function menuDrop(){
+            
+            if ($(window).width() <= 400){
+                $("#navbar").hide();
+                $(".menu-toggle").show();
+                $(".menu-toggle").click(function(){
+                    $(".menu").toggle();
+                });
+            };
+            
+            if ($(window).width() > 400){
+                $("#navbar").show();
+                $(".menu-toggle").hide()
+            } 
+        };
+        
+        $(window).resize(menuDrop);
+        
         $(document).ready(function(){
+            
+             menuDrop()
             
                 $('.ten').children('article').children(':not(h1,h2)').hide();
             $('h2').click(function() {
