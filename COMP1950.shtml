@@ -21,7 +21,7 @@
             
             if ($(window).width() > 400){
                 $("#navbar").show();
-                $(".menu-toggle").hide()
+                $(".menu-toggle, .menu").hide()
             } 
         };
         
