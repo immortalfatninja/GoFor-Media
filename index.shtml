@@ -30,8 +30,15 @@
         $(document).ready(function(){
             
              menuDrop()
+             
+             var arrows = "<img src='more.png' alt='arrows' class='more'>";
             
-            $('.ten').children('article').children(':not(h1,h2)').hide(); /* This hides all child elements inside of the central content
+           $('article').children('h2').each(function(i, e){
+           $(e).append(arrows);
+           });
+           
+            
+            $('.ten').children('article').children(':not(h1,h2,arrows)').hide(); /* This hides all child elements inside of the central content
                                                                       container  except h1/h2 and toggles then content between those elements*/
             $('h2').click(function() {
                $(this).nextUntil('h2').toggle(); 
@@ -71,9 +78,10 @@
 
 
             <div class="ten columns">
-                
-                <nav id="navbar"> <!-- Start horizontal navigation -->
-                    <!--#include file="inc/horizontal_nav.inc"-->
+
+                <nav id="navbar">
+                    <!-- Start horizontal navigation --> 
+                   <!--#include file="inc/horizontal_nav.inc"-->
                 </nav>
 
                 <article>
